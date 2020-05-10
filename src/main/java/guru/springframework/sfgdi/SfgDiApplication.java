@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"guru.services", "guru.springframework"})
+@ComponentScan(basePackages = {"guru.springframework.services.services", "guru.springframework"})
 public class SfgDiApplication {
 
 	public static void main(String[] args) {
